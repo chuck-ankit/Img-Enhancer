@@ -1,118 +1,118 @@
 # Image Enhancer
 
-A powerful AI-powered image enhancement application that transforms your photos with advanced machine learning algorithms.
+A powerful web application that enhances images using AI technology. Transform your photos with advanced enhancement features, real-time previews, and professional-grade results.
 
-## Overview
+## 🌟 Features
 
-Image Enhancer is a web application that allows users to enhance their images using state-of-the-art AI technology. The application provides various enhancement options, real-time previews, and a user-friendly interface.
-
-## Features
-
-### Core Features
-- 🖼️ **Image Upload**: Simple drag-and-drop interface for uploading images
-- 🎨 **Multiple Enhancement Types**:
-  - General Enhancement
+- **Multiple Enhancement Types**
   - Portrait Enhancement
   - Landscape Enhancement
   - Low Light Enhancement
-- ⚡ **Real-time Preview**: See your enhanced images instantly
-- 📱 **Responsive Design**: Works seamlessly on all devices
-- 💾 **Download Options**: Save enhanced images in high quality
+- **Real-time Preview**
+- **Responsive Design**
+- **Subscription Plans**
+  - Free: 5 enhancements/month
+  - Pro: 50 enhancements/month (₹499/month)
+  - Enterprise: Custom solutions
 
-### Subscription Plans
-- **Free Tier**: 5 enhancements per month
-- **Pro Tier**: 50 enhancements per month with advanced features
-- **Enterprise Tier**: Custom solutions for businesses
+## 🖥️ Website Preview
 
-## Technology Stack
+### Home Page
+![Home Page](docs/screenshots/home.png)
+- Modern, clean interface with gradient background
+- Sticky header with navigation
+- Hero section with clear value proposition
+- Feature highlights with icons
+- Responsive design for all devices
+
+### Pricing Page
+![Pricing Page](docs/screenshots/pricing.png)
+- Three-tier pricing structure
+- Clear feature comparison
+- Popular plan highlight
+- INR currency formatting
+- Call-to-action buttons
+
+
+
+## 🛠️ Technology Stack
 
 ### Frontend
 - React 18
 - Vite
 - Tailwind CSS
 - Axios
+- React Router DOM
 - React Dropzone
 
-### Backend (Future Implementation)
+### Future Backend
 - Node.js/Express
-- Python (for AI processing)
+- Python
 - TensorFlow/PyTorch
 - MongoDB/PostgreSQL
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v16 or higher)
+- Node.js (v14 or higher)
 - npm or yarn
-- Python 3.8+ (for future AI implementation)
+- Git
 
 ### Installation
-1. Clone the repository:
+1. Clone the repository
 ```bash
-git clone https://github.com/chuck-ankit/Img-Enhancer.git
-cd Img-Enhancer
+git clone https://github.com/yourusername/img-enhancer.git
+cd img-enhancer
 ```
 
-2. Install frontend dependencies:
+2. Install dependencies
 ```bash
 cd frontend
 npm install
 ```
 
-3. Start the development server:
+3. Start the development server
 ```bash
 npm run dev
 ```
 
-## Future Work: In-House AI Image Enhancement
+## 🔮 Future Work
 
-### Phase 1: Research and Development
-- [ ] Research existing image enhancement models
-- [ ] Collect and prepare training dataset
-- [ ] Design model architecture
-- [ ] Implement basic enhancement pipeline
+### Phase 1: Research & Development
+- Evaluate existing AI models for image enhancement
+- Identify key areas for improvement
+- Design architecture for in-house solution
 
 ### Phase 2: Model Development
-- [ ] Train initial model on basic enhancement tasks
-- [ ] Implement transfer learning for specific enhancement types
-- [ ] Develop model evaluation metrics
-- [ ] Optimize model performance
+- Train base model on high-quality image pairs
+- Implement core enhancement algorithms
+- Develop model evaluation metrics
 
 ### Phase 3: Specialized Enhancement Types
-- [ ] Portrait Enhancement Model
-  - Skin smoothing
-  - Face enhancement
-  - Background blur
-- [ ] Landscape Enhancement Model
-  - Color correction
-  - Detail enhancement
-  - Sky enhancement
-- [ ] Low Light Enhancement Model
-  - Noise reduction
-  - Brightness adjustment
-  - Detail recovery
+- Portrait enhancement with facial feature preservation
+- Landscape enhancement with color optimization
+- Low-light enhancement with noise reduction
 
 ### Phase 4: Production Integration
-- [ ] Develop API endpoints for model inference
-- [ ] Implement batch processing
-- [ ] Add caching layer
-- [ ] Set up monitoring and logging
+- API development
+- Performance optimization
+- Scalability implementation
 
 ### Phase 5: Advanced Features
-- [ ] Custom enhancement presets
-- [ ] Batch processing
-- [ ] API access for developers
-- [ ] Integration with popular platforms
+- Batch processing
+- Custom enhancement presets
+- API access for enterprise clients
 
-## Contributing
+## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
-- Thanks to the open-source community for their contributions
-- Special thanks to the AI/ML research community for their work in image enhancement.
+- Open source community
+- AI/ML research community
+- Contributors and supporters
