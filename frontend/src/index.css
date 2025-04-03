@@ -1,0 +1,37 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@import "tailwindcss";
+
+@theme {
+  --color-perano-50: #f1f3fc;
+  --color-perano-100: #e5e8fa;
+  --color-perano-200: #d0d5f5;
+  --color-perano-300: #aeb3ec;
+  --color-perano-400: #9595e4;
+  --color-perano-500: #827bd9;
+  --color-perano-600: #7161ca;
+  --color-perano-700: #6151b1;
+  --color-perano-800: #4f4390;
+  --color-perano-900: #433c73;
+  --color-perano-950: #282343;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-perano-50 text-perano-900;
+  }
+}
+
+@layer utilities {
+  .btn-primary {
+    @apply px-4 py-2 bg-perano-500 text-white rounded-lg hover:bg-perano-600 transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 bg-perano-100 text-perano-700 rounded-lg hover:bg-perano-200 transition-colors duration-200;
+  }
+}
