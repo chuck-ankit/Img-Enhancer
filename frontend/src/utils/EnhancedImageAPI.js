@@ -1,9 +1,7 @@
 import axios from "axios";
 
 const API_KEY = import.meta.env.VITE_API_KEY || process.env.REACT_APP_API_KEY;
-if (!API_KEY) {
-    throw new Error("API key is not defined. Please set VITE_API_KEY or REACT_APP_API_KEY in your environment variables.");
-}
+
 const BASE_URL = "https://techhk.aoscdn.com/";
 const MAXIMUM_RETRIES = 20;
 
@@ -18,7 +16,6 @@ export const enhancedImageAPI = async (file) => {
         return enhancedImageData;
     } catch (error) {
         console.log("Error enhancing image:", error.message);
-        throw error; // Re-throw the error to handle it in the component
     }
 };
 
@@ -79,5 +76,4 @@ const fetchEnhancedImage = async (taskId) => {
     return data.data;
 };
 
-// {status: 200, message: "success", data: {task_id: "187b1adc-b35f-46d7-8670-47f88f89fd73"}}
 // {status: 200, message: "success", data: {task_id: "187b1adc-b35f-46d7-8670-47f88f89fd73"}}
