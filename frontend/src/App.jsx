@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Home from './components/Home'
-import { theme } from './utils/theme'
+
 
 function App() {
   return (
