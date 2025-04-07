@@ -40,7 +40,7 @@ const Home = () => {
   return (
     <div className="space-y-16">
       {/* Hero Section with Upload */}
-      <section className="relative min-h-[80vh] flex flex-col items-center justify-center bg-gradient-to-b from-perano-50 to-perano-100 rounded-2xl p-8">
+      <section className=" min-h-[80vh] flex flex-col items-center justify-center bg-gradient-to-b from-perano-50 to-perano-100 rounded-2xl p-8">
         <div className="text-center mb-8">
           <h2 className="text-4xl md:text-5xl font-bold text-perano-900 mb-4">Transform Your Images with AI</h2>
           <p className="text-xl text-perano-600 max-w-2xl mx-auto">
